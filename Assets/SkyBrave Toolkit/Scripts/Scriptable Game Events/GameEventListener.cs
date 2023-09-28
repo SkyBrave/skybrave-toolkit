@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SkyBrave_Toolkit.Scripts.Scriptable_Game_Events
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Scriptable_Game_Events
 {
     public class GameEventListener : MonoBehaviour
     {

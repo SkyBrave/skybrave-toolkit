@@ -1,9 +1,7 @@
-using System;
-using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components
 {
     public class VelocityComponent : MonoBehaviour
     {
@@ -76,7 +74,7 @@ namespace SkyBrave_Toolkit.Scripts.Components
 #if UNITY_EDITOR
         private void OnDrawGizmos()
         {
-            Debug.DrawRay(transform.position, Velocity, Color.blue);
+            UnityEngine.Debug.DrawRay(transform.position, Velocity, Color.blue);
         }
 #endif
     }

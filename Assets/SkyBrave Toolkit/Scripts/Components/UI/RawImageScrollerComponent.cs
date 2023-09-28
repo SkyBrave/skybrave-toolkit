@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.UI
 {
     public class RawImageScrollerComponent : MonoBehaviour
     {

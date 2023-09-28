@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components
 {
     public class SelectObjectInTheWorldComponent : MonoBehaviour
     {
@@ -19,7 +19,7 @@ namespace SkyBrave_Toolkit.Scripts.Components
 
         public void ShootRayFromCamera()
         {
-            var ray = _camera.ScreenPointToRay(Input.mousePosition);
+            var ray = _camera.ScreenPointToRay(UnityEngine.Input.mousePosition);
             var ifHitSomething = Physics.Raycast(ray, maxDistance: 1000, hitInfo: out var hit);
 
             if (ifHitSomething)

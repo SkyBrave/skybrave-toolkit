@@ -1,8 +1,8 @@
-using SkyBrave_Toolkit.Scripts.Scriptable_Game_Events;
+using SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Scriptable_Game_Events;
 using UnityEditor;
 using UnityEngine;
 
-namespace SkyBrave_Toolkit.Scripts.Editor
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Editor
 {
 #if UNITY_EDITOR
     [CustomEditor(typeof(GameEvent), editorForChildClasses: true)]

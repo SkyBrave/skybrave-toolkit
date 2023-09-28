@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SkyBrave_Toolkit.Scripts.Scriptable_Game_Settings
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Scriptable_Game_Settings
 {
     [CreateAssetMenu(fileName = "Scriptable Game Settings", menuName = "Scriptable Game Settings/New Game Settings")]
     public class GameSettings : ScriptableObject

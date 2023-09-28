@@ -1,8 +1,7 @@
-using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components
 {
     public class TimerComponent : MonoBehaviour
     {

@@ -1,7 +1,8 @@
+using SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Debug;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Action
 {
     [RequireComponent(typeof(Collider))]
     public class DamageOnTrigger3DComponent : MonoBehaviour

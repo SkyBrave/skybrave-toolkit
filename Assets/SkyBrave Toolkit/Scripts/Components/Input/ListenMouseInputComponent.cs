@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Input
 {
     public class ListenMouseInputComponent : MonoBehaviour
     {
         [SerializeField] private UnityEvent onMouseButtonLeftClicked;
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (UnityEngine.Input.GetMouseButtonDown(0))
             {
                 onMouseButtonLeftClicked.Invoke();
             }

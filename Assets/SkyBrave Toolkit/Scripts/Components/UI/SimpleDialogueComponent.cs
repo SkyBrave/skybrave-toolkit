@@ -2,9 +2,8 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Serialization;
 
-namespace SkyBrave_Toolkit.Scripts.UI
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.UI
 {
     public class SimpleDialogueComponent : MonoBehaviour
     {

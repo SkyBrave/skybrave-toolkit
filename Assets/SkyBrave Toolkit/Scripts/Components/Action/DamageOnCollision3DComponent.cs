@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Action
 {
     [RequireComponent(typeof(Collider), typeof(Rigidbody))]
     public class DamageOnCollision3DComponent : MonoBehaviour

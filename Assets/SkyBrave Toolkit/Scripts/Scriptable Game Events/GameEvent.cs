@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SkyBrave_Toolkit.Scripts.Scriptable_Game_Events
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Scriptable_Game_Events
 {
     
     [CreateAssetMenu(fileName = "Scriptable Game Event", menuName = "Scriptable Game Events/New Game Event")]

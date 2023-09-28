@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Action
 {
     [RequireComponent(typeof(HealthComponent))]
     public class DamageableComponent : MonoBehaviour

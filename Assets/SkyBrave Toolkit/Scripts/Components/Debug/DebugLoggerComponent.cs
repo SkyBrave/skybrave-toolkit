@@ -1,7 +1,7 @@
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Debug
 {
     public class DebugLoggerComponent : MonoBehaviour
     {
@@ -20,13 +20,13 @@ namespace SkyBrave_Toolkit.Scripts.Components
         public void LogMessageWithSender(object message, Object sender)
         {
             if (!_showLogs) return;
-            Debug.Log($"<color={_hexColor}>{_prefix}:</color> {message}", sender);
+            UnityEngine.Debug.Log($"<color={_hexColor}>{_prefix}:</color> {message}", sender);
         }
         
         public void LogMessage(string message)
         {
             if (!_showLogs) return;
-            Debug.Log($"<color={_hexColor}>{_prefix}:</color> {message}");
+            UnityEngine.Debug.Log($"<color={_hexColor}>{_prefix}:</color> {message}");
         }
     }
 }

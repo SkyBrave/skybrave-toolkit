@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Move
 {
     public class ConstantlyMoveForwardsComponent : MonoBehaviour
     {
@@ -20,7 +20,7 @@ namespace SkyBrave_Toolkit.Scripts.Components
 
         private void DebugVisualizer()
         {
-            Debug.DrawRay(transform.position, transform.forward * moveSpeed, Color.blue);
+            UnityEngine.Debug.DrawRay(transform.position, transform.forward * moveSpeed, Color.blue);
         }
     }
 }

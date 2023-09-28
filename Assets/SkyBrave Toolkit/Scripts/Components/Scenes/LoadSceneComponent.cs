@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Scenes
 {
     public class LoadSceneComponent : MonoBehaviour
     {
@@ -20,6 +20,11 @@ namespace SkyBrave_Toolkit.Scripts.Components
         {
             var sceneIndexToLoad = Mathf.Clamp(SceneManager.GetActiveScene().buildIndex - 1, 0, SceneManager.sceneCountInBuildSettings - 1);
             SceneManager.LoadScene(sceneIndexToLoad);
+        }
+
+        public void LoadUnitySceneWithName(string unitySceneName)
+        {
+            SceneManager.LoadScene(unitySceneName);
         }
     }
 }

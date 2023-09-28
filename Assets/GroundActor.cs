@@ -1,6 +1,6 @@
 using System;
-using SkyBrave_Toolkit.Scripts;
-using SkyBrave_Toolkit.Scripts.Components;
+using SkyBrave_Toolkit;
+using SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components;
 using UnityEngine;
 
 [RequireComponent(typeof(SelectableObjectComponent), typeof(SpawnObjectComponent))]

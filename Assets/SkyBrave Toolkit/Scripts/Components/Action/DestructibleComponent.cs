@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SkyBrave_Toolkit.Scripts.Components
+namespace SkyBrave_Toolkit.SkyBrave_Toolkit.Scripts.Components.Action
 {
     public class DestructibleComponent : MonoBehaviour
     {
